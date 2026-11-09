@@ -1,0 +1,61 @@
+# ── Dependencies ─────────────────────────────
+node_modules/
+.pnpm-store/
+
+# ── Build output & caches ────────────────────
+dist/
+build/
+dev-dist/
+*.tsbuildinfo
+.vite/
+.turbo/
+.cache/
+.eslintcache
+
+# ── Tests & evals output ─────────────────────
+coverage/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# ── Secrets (never commit) ───────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+secrets/
+.sentryclirc
+
+# ── Local data, dumps, logs ──────────────────
+# Note: *.sql is NOT ignored, because Prisma migrations are .sql files.
+*.dump
+*.backup
+*.sqlite
+*.sqlite3
+*.db
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# ── Editor / OS ──────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# ── Claude Code (personal, local-only) ───────
+.claude/settings.local.json
+CLAUDE.local.md
+
+# ── Private business docs  ──
+docs/01-business
+docs/04-design-system
