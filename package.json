@@ -1,0 +1,8 @@
+{
+  "name": "enquadre",
+  "description": "Scheduling and billing SaaS for psychologists",
+  "scripts": {},
+  "license": "UNLICENSED",
+  "private": true,
+  "packageManager": "pnpm@12.18.0"
+}
